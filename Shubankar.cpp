@@ -16,11 +16,9 @@ int main()
         }
         for(int j=i;j<=n*2-i;j++)
         {
-            if(i==r && i<=n/2 && j>=c && j<=s)
+            if(i==r && i<=n/2 && j==s)
             {
                 cout<<" ";
-                c--;
-                s++;
             }
             else
                 cout<<"*";
